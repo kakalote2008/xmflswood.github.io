@@ -19,13 +19,13 @@ function go () {
     .type('/**', '<span class="note">')
     .type('0', '<br>')
     .type('00', '<span class="blank">')
-    .type('今天向老婆大人演示一段前端编程入门教学', '<span class="note">')
+    .type('大家好，我叫葡萄爸爸，是这个私人域名的所有者。下面是我向老婆大人展示的代码，闲杂人等请自行离场。。。', '<span class="note">')
     .type('0', '<br>')
     .type('00', '<span class="blank">')
     .wait(10)
     .type('首先。。。', '<span class="note">')
     .wait(10)
-    .type('老婆大人万岁~o(*≧▽≦)ツ', '<span class="note">', 0)
+    .type('老婆大人情人节快乐~o(*≧▽≦)ツ', '<span class="note">', 0)
     .wait(10)
     .then(() => {
       memeda()
@@ -55,17 +55,20 @@ function go () {
     .type('0', '<br>')
     // 四个空格
     .type('0000', '<span class="blank">')
-    .type('the little dad', '<span class="gray">')
+    .type('男主', '<span class="gray">')
     .type(':', '<span class="blue">')
     .type('0', '<span class="blank">')
-    .type("'wood'", '<span class="green">')
+    .type("'吊炸天的导演大人'", '<span class="green">')
     .wait(15)
-    .del(6)
-    .type("'葡萄爸爸'", '<span class="green">')
+    .del(10)
+    .type("'为人民服务的导演'", '<span class="green">')
+    .wait(15)
+    .del(10)
+    .type("'为老婆大人服务的导演'", '<span class="green">')
     .type(',', '<span class="gray">')
     .type('0', '<br>')
     .type('0000', '<span class="blank">')
-    .type('the little mom', '<span class="gray">')
+    .type('女主', '<span class="gray">')
     .type(':', '<span class="blue">')
     .type('0', '<span class="blank">')
     .type("'老婆大人'", '<span class="green">')
@@ -268,7 +271,7 @@ function stars () {
   let comment = document.createElement('div')
   comment.className = 'comment'
   comment.style.bottom = 80 + comentsLength * 55 + 'px'
-  comment.innerHTML = '老婆大人节日快乐，干死那些坏人们！！！'
+  comment.innerHTML = '爱你'
   document.body.appendChild(comment)
 
   document.body.appendChild(startsContainer)
